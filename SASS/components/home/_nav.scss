@@ -1,3 +1,25 @@
-nav {
-    background-image: url(../HTML./9a59803b95be6cfaea1df09ba533f0.jng);
+.man-bb{
+    background-image: url(../../../HTML/ad9302e76f9ae703fc3f1270b323ebc1.jpg);
+    padding:250px 120px;
+    background-size: cover;
+    background-position: center;
+}
+.nav-container{
+    background-color: rgba(255, 255, 255, 0.327);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 95%;
+    padding: 0px 40px;
+        img{
+            width: 200px;
+        }
+        .navbar{
+            a{
+                text-decoration: none;
+                color: cadetblue;
+                margin-left: 15px;
+            }
+        }
 }
