@@ -4,20 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-   <nav class="nav-container">
-    <img src="./Group 1.png" alt="">
-        <div class="navbar">
-            <a href="./home.html">Home</a>
-            <a href="#">Plan your visite</a>
-            <a href="./about.html">About Us</a>
-            <a href="./contact.html">Contact Us</a>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./Group 1.png" alt="" style="width: 200px;"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Plan your visit</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>     
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Angkor Wat — Temple of the Khmer Empire</h1>
+        <p>Discover the largest religious monument in the world, its history, architecture and how to plan your visit to Siem Reap.</p>
+        <a href="" class="hero-btn">Visit Us to know More</a>
+
         </div>
-    </nav>
-    <section>
-        
     </section>
+
+
+     <section class="course">
+        <h1>Timple</h1>
+        <p>Over one thousand of temples are waiting to be discovered. Each temple is uniques, and provide the unique experience of your visit.</p>
+            <div class="row">
+                <div class="course-col">
+                    <img src="./9740e8690781abf6bac0cd3e0514725e.jpg" alt="" style="width: 200px" height="200px">
+                    <h3>Angkor Wat</h3>
+                    <p>Angkor Wat is the largest religious monument in the world, and the most famous of all the temples in Angkor. It was built in the early 12th century by King Suryavarman II as his state temple and capital city. The temple is a symbol of Cambodia, appearing on its national flag, and it is the country's prime attraction for visitors.</p>
+                </div>
+                <div class="course-col">
+                    <img src="./c9cb1281f3ad23d8b11bdb3e599497db.jpg" alt="" style="width:200px" height="200px">
+                    <h3>Bayon Temple</h3>
+                    <p>Bayon Temple is one of the most iconic and enigmatic temples in the Angkor Archaeological Park, located in Siem Reap, Cambodia. It was built in the late 12th or early 13th century as the state temple of King Jayavarman VII, a prominent Khmer ruler. The temple is renowned for its unique architectural style and intricate carvings.</p>
+                </div>
+                <div class="course-col">
+                    <img src="./53b0656638812f512ed608ee5a71d573.jpg" alt="" style="width:200px" height="200px">
+                    <h3>Ta Prohm</h3>
+                    <p>Ta Prohm is a captivating temple located in the Angkor Archaeological Park in Siem Reap, Cambodia. It was built in the late 12th and early 13th centuries during the reign of King Jayavarman VII as a Buddhist monastery and university. What sets Ta Prohm apart from other temples in the area is its unique blend of ancient architecture and the encroaching jungle, creating a mystical and atmospheric experience for visitors.</p>
+                </div>
+                <div class="course-col">
+                    <img src="./a578e3221d1a4161729ddff5e2e3f02b.jpg" alt="" style="width:200px" height="200px">
+                    <h3>Banteay Srei</h3>
+                    <p>Banteay Srei, often referred to as the "Citadel of
+            </div>
+            <div class="course-col">
+                <img src="./2270fe671576af2217f3c5978d1aae3b.jpg" alt="" style="width:200px" height="200px">
+                    <h3>Preah Khan</h3>
+                    <p>Preah Khan is a large and impressive temple complex located in the Angkor Archaeological Park in Siem Reap, Cambodia. It was built in the 12th century during the reign of King Jayavarman VII as a Buddhist monastery and university. The temple is known for its intricate architecture, extensive carvings, and historical significance.</p>
+                </div>
+                <div class="course-col">
+                    <img src="./5c89133f587383abecbb39eff48eb4c8.jpg" alt="" style="width:200px" height="200px">
+                    <h3>Phnom Bakheng</h3>
+                    <p>Phnom Bakheng is a Hindu and Buddhist temple located in the Angkor Archaeological Park in Siem Reap, Cambodia. It is one of the oldest temples in the area, built in the late 9th century during the reign of King Yasovarman I. The temple is situated on a hilltop, providing panoramic views of the surrounding landscape, including the famous Angkor Wat temple.</p>
+                </div>
+
+
+     </section>
+
+     <section class="campus">
+        <h1></h1>
+
+     </section>
+
+
+
+   <! -------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
 </body>
 </html>
