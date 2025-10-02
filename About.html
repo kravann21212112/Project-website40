@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./Group_2-removebg-preview.png" alt="" style="width: 200px;"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Plan your visit</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>     
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Angkor Wat — Temple of the Khmer Empire</h1>
+        <p>Discover the largest religious monument in the world, its history, architecture and how to plan your visit to Siem Reap.</p>
+        <a href="" class="hero-btn">Visit Us to know More</a>
+
+        </div>
+    </section>
+     <section class="vaa">
+        <h1>About Us</h1>
+        <p>Angkor Enterprise is a public administration, which is under the technical supervision of the Ministry of Tourism, and is under the financial supervision of the Ministry of Economy and Finance and has the following duties:</p>
+        <li>Manage and collect revenue from selling Angkor Archaeological Park ticket </li>
+        <li>Provide a proposal on how to collect revenue of selling ticket from Angkor Archaeological Park</li>
+        <li>Participate in the state budget each year, especially on income</li>
+        <li> Prepare the necessary infrastructure to ensure the efficient collecting revenue from selling ticket to the Angkor Archaeological Park</li>
+        <li>Manage infrastructure for collecting sales revenue from the Angkor Archaeological Park</li>
+        <li>Manage and monitor the number of tourists to the Angkor Archaeological Park</li>
+        <li>Provide services and manage revenue of public restroom services in the Angkor Archaeological Park</li>
+        <li>Collaborate with relevant authorities to promote tourism</li>
+        <li>Cooperate with relevant authorities to ensure the safety of visitors to the Angkor Archaeological Park</li>
+        <li> Manage the collection of revenue from selling ticket and culture of state as determined by the government</li>
+        <li> Perform other tasks as required by the government</li>
+        
+    </section>
+    <section class="oo">
+        <div class="ww">
+            <p class="footer-title">© <span id="footer_year"></span> Angkor Enterprise</p>
+            <p>The Angkor Ticket Office (Angkor Enterprise) is the only place where you <br> can purchase entrance tickets for the Angkor Archaeological Park. Tickets <br> purchased elsewhere are not valid. The ticket office is located on Road 60, <br> 4km away from Siem Reap’s center.</p>
+        <div class="icons">
+            <i class="fa fa-facebook">  Yorm Kravann</i>
+            <i class="fa fa-twitter" >  Kravann</i>
+            <i class="fa fa-instagram">  Yorm Kravann</i>
+            <i class="fa fa-linkedin">  Kravann</i>
+            </div>
+        </div>
+    </section>
+
+   <! -------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
