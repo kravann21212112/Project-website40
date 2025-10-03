@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khmer Empire</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./Group_2-removebg-preview.png" alt="" style="width: 200px;"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="">Plan your visit</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>     
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Angkor Wat — Temple of the Khmer Empire</h1>
+        <p>Discover the largest religious monument in the world, its history, architecture and how to plan your visit to Siem Reap.</p>
+        <a href="" class="hero-btn">Visit Us to know More</a>
+        </div>
+    </section>
+
+           <! -------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <header class="site-header">
+    <h1 class="site-title">Plan your visit</h1>
+
+    <nav class="temple-nav" aria-label="Temple navigation">
+      <a href="#">Angkor Wat</a>
+      <a href="#">Bayon</a>
+      <a href="#">Bakheng Temple</a>
+      <a href="#">Baphuon Temple</a>
+      <a href="#">Banteay Srei Temple</a>
+      <a href="#">Preah Khan Temple</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-inner">
+      <!-- Left column: text -->
+      <section class="hero-text">
+        <h2 class="place-title">Angkor Wat</h2>
+
+        <ul class="info-list">
+          <li>
+            <span class="icon-box" aria-hidden="true"><i class="fa-regular fa-clock"></i></span>
+            <span class="info">05:00 - 17:30</span>
+          </li>
+          <li>
+            <span class="icon-box" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></span>
+            <span class="info">Siem Reap</span>
+          </li>
+        </ul>
+
+        <p class="lead">
+          
+        </p>Angkor Wat is the largest religious monument in the world, 
+        and the most famous of all the temples in Angkor. It was built in the early 12th century 
+        by King Suryavarman II as his state temple and capital city.
+
+        
+      </section>
+
+      <!-- Right column: image -->
+      <figure class="hero-image" aria-hidden="true">
+        <img src="./edbf7353393cc3d039792dc89a0dd4b6.jpg" alt="Angkor Wat temple" />
+      </figure>
+       
+    </div>
+  </main>
+     <section class="hero-text1">
+        <h2 class="place-title">Baphuon Temple</h2>
+
+        <ul class="info-list">
+          <li>
+            <span class="icon-box"><i class="fa-regular fa-clock"></i></span>
+            <span class="info">07:30 - 17:30</span>
+          </li>
+          <li>
+            <span class="icon-box"><i class="fa-solid fa-location-dot"></i></span>
+            <span class="info">Road 4, Siem Reap</span>
+          </li>
+        </ul>
+
+        <p class="lead">
+          The Baphuon is a temple at Angkor, Cambodia. <br> It is located in Angkor Thom, northwest of the Bayon. <br>
+          Built in the mid-11th century, it is a three-tiered temple <br> mountain built as the state temple 
+          of Udayadityavarman II <br>dedicated to the Hindu God Shiva.
+        </p>
+
+        
+      </section>
+      <figure class="hero-image1" aria-hidden="true">
+        <img src="https://i.pinimg.com/1200x/44/b3/04/44b304c3f26294926cfc32927119f9b6.jpg" alt="Baphuon temple" />
+      </figure>
+    </div>
+  </main> 
+     <section class="oo">
+        <div class="ww">
+            <p class="footer-title">© <span id="footer_year"></span> Angkor Enterprise</p>
+            <p>The Angkor Ticket Office (Angkor Enterprise) is the only place where you <br> can purchase entrance tickets for the Angkor Archaeological Park. Tickets <br> purchased elsewhere are not valid. The ticket office is located on Road 60, <br> 4km away from Siem Reap’s center.</p>
+        <div class="icons">
+            <i class="fa fa-facebook">  Yorm Kravann</i>
+            <i class="fa fa-twitter" >  Kravann</i>
+            <i class="fa fa-instagram">  Yorm Kravann</i>
+            <i class="fa fa-linkedin">  Kravann</i>
+            </div>
+        </div>
+    </section>
+</body>
