@@ -649,7 +649,7 @@ body{
   margin:0 0 26px;
   display:flex;
   flex-direction:column;
-  gap:16px;
+  gap:20px;
 }
 .info-list li{
   display:flex;
